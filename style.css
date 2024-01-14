@@ -33,15 +33,19 @@ dt {
   line-height: 1;
 }
 
-@media all and (min-width: 800px) and (max-width: 1200px) {
+
+@media all and (max-width: 799px) {
   dl {
-    column-count: 2;
+    column-count: 1;
+  }
+  
+  body {
+    font-size: 2rem;
   }
 }
 
-
-@media all and (max-width: 800px) {
+@media all and (min-width: 800px) and (max-width: 1200px) {
   dl {
-    column-count: 1;
+    column-count: 2;
   }
 }

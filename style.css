@@ -38,10 +38,6 @@ dt {
   dl {
     column-count: 1;
   }
-  
-  body {
-    font-size: 2rem;
-  }
 }
 
 @media all and (min-width: 800px) and (max-width: 1200px) {

@@ -1,0 +1,47 @@
+h3 {
+  font-weight: 400;
+  margin-top: 2.1rem;
+  margin-bottom: 1.4rem;
+  font-size: 3.2rem;
+  line-height: 1;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  padding: 1.5rem 0;
+}
+
+main {
+  padding: 0 .3rem;
+}
+
+dl {
+  column-count: 3;
+}
+
+dd {
+  margin-left: 2rem;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  line-height: 1;
+}
+
+@media all and (min-width: 800px) and (max-width: 1200px) {
+  dl {
+    column-count: 2;
+  }
+}
+
+
+@media all and (max-width: 800px) {
+  dl {
+    column-count: 1;
+  }
+}
